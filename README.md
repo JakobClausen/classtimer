@@ -27,4 +27,4 @@ A web app that counts down to the next training class and each break between cla
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-[![Fysiken](https://img.shields.io/npm/v/github-buttons)](https://fysiken.nu/sv/vara-anlaggningar/fysiken-crossfit/fysiken-crossfit/)
+[![Fysiken](https://fysiken.nu/sv/vara-anlaggningar/fysiken-crossfit/fysiken-crossfit/)
