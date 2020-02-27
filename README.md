@@ -2,10 +2,12 @@
 
 A web app that counts down to the next training class and each break between classes. If it´s more than 60 minutes to the next class or if there is no more classes today, the current time is showing instead. 
 
+<img src="/public/img/ReadMePic.png" align="right"
+     title="Class timer by Jakob Clausen" width="120" height="178">
+     
+ <img src="/public/img/ReadMePic2.png" align="right"
+     title="Class timer by Jakob Clausen" width="120" height="178">
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
@@ -19,9 +21,3 @@ Add additional notes about how to deploy this on a live system
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
