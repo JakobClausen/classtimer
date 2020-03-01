@@ -1,4 +1,5 @@
-# Class timer
+# Class timer 
+[fysikentimer.netlify](https://fysikentimer.netlify.com/)
 
 A web app that counts down to the next training class and each break between classes. If it´s more than 60 minutes to the next class or if there is no more classes today, the current time is showing instead. 
 
