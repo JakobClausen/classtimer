@@ -14,13 +14,14 @@ A web app that counts down to the next training class and each break between cla
 ## Built With
 
 * Vanilla Javascript 
-* [Moment](https://momentjs.com/) - Used for most date functions
+* [Moment.js](https://momentjs.com/)
+* [Netlify](https://www.netlify.com/)
 
 ## Built For
 
 * **Fysiken Crossfit** - (https://fysiken.nu/sv/vara-anlaggningar/fysiken-crossfit/fysiken-crossfit/)
 
-## Authors
+## Author
 
 * **Jakob Clausen Fridmar** - (https://github.com/JakobClausen)
 
