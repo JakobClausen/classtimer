@@ -28,8 +28,9 @@ img {
 
 p {
   position: absolute;
-  font-size: 40px;
+  font-size: 70px;
   visibility: hidden;
+  margin-top: -35px;
 }
 
 .flex {
