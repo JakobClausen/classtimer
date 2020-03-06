@@ -26,6 +26,12 @@ body {
   margin: 10px 0px 0px 20px;
 }
 
+h3 {
+  font-size: calc(0.5em + 1vw);
+  margin: 130px 0px 0px 50px;
+  display: none;
+}
+
 img {
   position: absolute;
   width: calc(1em + 4vw);
