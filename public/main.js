@@ -70,8 +70,8 @@ const schedule = [
   [
     [moment({ hour: 07, minute: 00 }), "Class"],
     [moment({ hour: 07, minute: 45 }), "Class end"],
-    [moment({ hour: 12, minute: 54 }), "Class"],
-    [moment({ hour: 12, minute: 55 }), "Class end"],
+    [moment({ hour: 12, minute: 00 }), "Class"],
+    [moment({ hour: 12, minute: 45 }), "Class end"],
     [moment({ hour: 16, minute: 00 }), "Class"],
     [moment({ hour: 16, minute: 45 }), "Break"],
     [moment({ hour: 16, minute: 50 }), "Class"],
@@ -127,15 +127,13 @@ const schedule = [
 
       // DOM (timer text)
       if (arrayOfFutureClasses[0][1] === "Class") {
-        document.querySelector(".timer-text").style.visibility = "unset";
+        document.querySelector(".timer-text").textContent =
+          "Next class starts in:";
       } else if (
         arrayOfFutureClasses[0][1] === "Class end" ||
         arrayOfFutureClasses[0][1] === "Break"
       ) {
         document.querySelector(".timer-text").textContent = "Crossfit class";
-        document.querySelector(".timer-text").style.visibility = "unset";
-      } else {
-        document.querySelector(".timer-text").style.visibility = "hidden";
       }
     }
 
@@ -148,10 +146,9 @@ const schedule = [
       document.querySelector(".dom-time").textContent = currentTime;
       document.querySelector(".timer-text").style.visibility = "hidden";
       document.querySelector(".minutes").style.display = "none";
-      document.querySelector(".side-clock").textContent = "";
     }
 
-    // Reloads the page
+    // Reloads the page to get todays dates
     if (moment().format("HH:mm:ss") === "03:00:00") {
       location.reload();
     }
