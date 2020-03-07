@@ -146,6 +146,7 @@ const schedule = [
       document.querySelector(".dom-time").textContent = currentTime;
       document.querySelector(".timer-text").style.visibility = "hidden";
       document.querySelector(".minutes").style.display = "none";
+      document.querySelector(".side-clock").textContent = "";
     }
 
     // Reloads the page to get todays dates
