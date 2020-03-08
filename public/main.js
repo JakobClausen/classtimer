@@ -1,7 +1,8 @@
 const schedule = [
   [
     [moment({ hour: 09, minute: 30 }), "Class"],
-    [moment({ hour: 10, minute: 30 }), "Class"]
+    [moment({ hour: 10, minute: 30 }), "Class"],
+    [moment({ hour: 11, minute: 30 }), "Class end"]
   ],
   [
     [moment({ hour: 07, minute: 00 }), "Class"],
