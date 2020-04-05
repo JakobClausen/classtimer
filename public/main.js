@@ -1,91 +1,56 @@
 const schedule = [
   [
     [moment({ hour: 09, minute: 30 }), "Class"],
-    [moment({ hour: 10, minute: 30 }), "Class"]
+    [moment({ hour: 10, minute: 30 }), "break"],
+    [moment({ hour: 10, minute: 31 }), "Class"],
+    [moment({ hour: 10, minute: 30 }), "Class end"],
   ],
   [
-    [moment({ hour: 07, minute: 00 }), "Class"],
-    [moment({ hour: 07, minute: 45 }), "Class end"],
     [moment({ hour: 12, minute: 00 }), "Class"],
     [moment({ hour: 12, minute: 45 }), "Class end"],
-    [moment({ hour: 16, minute: 00 }), "Class"],
-    [moment({ hour: 16, minute: 45 }), "Break"],
-    [moment({ hour: 16, minute: 50 }), "Class"],
-    [moment({ hour: 17, minute: 35 }), "Break"],
-    [moment({ hour: 17, minute: 40 }), "Class"],
-    [moment({ hour: 18, minute: 25 }), "Break"],
-    [moment({ hour: 18, minute: 30 }), "Class"],
-    [moment({ hour: 19, minute: 15 }), "Break"],
-    [moment({ hour: 19, minute: 20 }), "Class"],
-    [moment({ hour: 20, minute: 05 }), "Class end"]
+    [moment({ hour: 17, minute: 00 }), "Class"],
+    [moment({ hour: 17, minute: 45 }), "Break"],
+    [moment({ hour: 17, minute: 50 }), "Class"],
+    [moment({ hour: 18, minute: 35 }), "Class end"],
   ],
   [
-    [moment({ hour: 07, minute: 00 }), "Class"],
-    [moment({ hour: 07, minute: 45 }), "Class end"],
     [moment({ hour: 12, minute: 00 }), "Class"],
     [moment({ hour: 12, minute: 45 }), "Class end"],
-    [moment({ hour: 16, minute: 00 }), "Class"],
-    [moment({ hour: 16, minute: 45 }), "Break"],
-    [moment({ hour: 16, minute: 50 }), "Class"],
-    [moment({ hour: 17, minute: 35 }), "Break"],
-    [moment({ hour: 17, minute: 40 }), "Class"],
-    [moment({ hour: 18, minute: 25 }), "Break"],
-    [moment({ hour: 18, minute: 30 }), "Class"],
-    [moment({ hour: 19, minute: 15 }), "Break"],
-    [moment({ hour: 19, minute: 20 }), "Class"],
-    [moment({ hour: 20, minute: 20 }), "Class end"]
+    [moment({ hour: 17, minute: 00 }), "Class"],
+    [moment({ hour: 17, minute: 45 }), "Break"],
+    [moment({ hour: 17, minute: 50 }), "Class"],
+    [moment({ hour: 18, minute: 35 }), "Class end"],
   ],
   [
-    [moment({ hour: 07, minute: 00 }), "Class"],
-    [moment({ hour: 07, minute: 45 }), "Class end"],
     [moment({ hour: 12, minute: 00 }), "Class"],
     [moment({ hour: 12, minute: 45 }), "Class end"],
-    [moment({ hour: 16, minute: 00 }), "Class"],
-    [moment({ hour: 16, minute: 45 }), "Break"],
-    [moment({ hour: 16, minute: 50 }), "Class"],
-    [moment({ hour: 17, minute: 35 }), "Break"],
-    [moment({ hour: 17, minute: 40 }), "Class"],
-    [moment({ hour: 18, minute: 25 }), "Break"],
-    [moment({ hour: 18, minute: 30 }), "Class"],
-    [moment({ hour: 19, minute: 15 }), "Break"],
-    [moment({ hour: 19, minute: 20 }), "Class"],
-    [moment({ hour: 20, minute: 20 }), "Class end"]
+    [moment({ hour: 17, minute: 00 }), "Class"],
+    [moment({ hour: 17, minute: 45 }), "Break"],
+    [moment({ hour: 17, minute: 50 }), "Class"],
+    [moment({ hour: 18, minute: 35 }), "Class end"],
   ],
   [
-    [moment({ hour: 07, minute: 00 }), "Class"],
-    [moment({ hour: 07, minute: 45 }), "Class end"],
     [moment({ hour: 12, minute: 00 }), "Class"],
     [moment({ hour: 12, minute: 45 }), "Class end"],
-    [moment({ hour: 14, minute: 33 }), "Class"],
-    [moment({ hour: 14, minute: 34 }), "Break"],
-    [moment({ hour: 14, minute: 35 }), "Class"],
-    [moment({ hour: 14, minute: 36 }), "Break"],
-    [moment({ hour: 17, minute: 40 }), "Class"],
-    [moment({ hour: 18, minute: 25 }), "Break"],
-    [moment({ hour: 18, minute: 30 }), "Class"],
-    [moment({ hour: 19, minute: 15 }), "Break"],
-    [moment({ hour: 19, minute: 20 }), "Class"],
-    [moment({ hour: 20, minute: 05 }), "Class end"]
+    [moment({ hour: 17, minute: 00 }), "Class"],
+    [moment({ hour: 17, minute: 45 }), "Break"],
+    [moment({ hour: 17, minute: 50 }), "Class"],
+    [moment({ hour: 18, minute: 35 }), "Class end"],
   ],
   [
-    [moment({ hour: 07, minute: 00 }), "Class"],
-    [moment({ hour: 07, minute: 45 }), "Class end"],
     [moment({ hour: 12, minute: 00 }), "Class"],
     [moment({ hour: 12, minute: 45 }), "Class end"],
-    [moment({ hour: 16, minute: 00 }), "Class"],
-    [moment({ hour: 16, minute: 45 }), "Break"],
-    [moment({ hour: 16, minute: 50 }), "Class"],
-    [moment({ hour: 17, minute: 35 }), "Break"],
-    [moment({ hour: 17, minute: 40 }), "Class"],
-    [moment({ hour: 18, minute: 25 }), "Class end"]
+    [moment({ hour: 17, minute: 00 }), "Class"],
+    [moment({ hour: 17, minute: 45 }), "Break"],
+    [moment({ hour: 17, minute: 50 }), "Class"],
+    [moment({ hour: 18, minute: 35 }), "Class end"],
   ],
   [
     [moment({ hour: 10, minute: 00 }), "Class"],
-    [moment({ hour: 11, minute: 00 }), "Class end"],
-    [moment({ hour: 12, minute: 00 }), "Break"],
-    [moment({ hour: 12, minute: 15 }), "Class"],
-    [moment({ hour: 13, minute: 15 }), "Class end"]
-  ]
+    [moment({ hour: 11, minute: 00 }), "break"],
+    [moment({ hour: 11, minute: 01 }), "Class"],
+    [moment({ hour: 12, minute: 00 }), "Class end"],
+  ],
 ];
 
 (() => {
@@ -104,7 +69,7 @@ const schedule = [
     // checks if last class for the day is over
     if (isClasses) {
       // makes a new array of future classes
-      arrayOfFutureClasses = schedule[weekDayIndex].filter(x => {
+      arrayOfFutureClasses = schedule[weekDayIndex].filter((x) => {
         if (x[0].format("HH:mm") > currentTime) {
           return (arrayOfFutureClasses = x[0]);
         }
