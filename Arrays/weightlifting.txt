@@ -1,0 +1,41 @@
+const weightliftingSchedule = {
+  Monday: [
+    [moment({ hour: 16, minute: 30 }), "Class"],
+    [moment({ hour: 19, minute: 30 }), "Class End"]
+  ],
+  Tuseday: [
+    [moment({ hour: 16, minute: 30 }), "Class"],
+    [moment({ hour: 19, minute: 30 }), "Class End"]
+  ],
+  Wednesday: [
+    [moment({ hour: 17, minute: 30 }), "Class"],
+    [moment({ hour: 19, minute: 30 }), "Class End"]
+  ],
+  Thursday: [
+    [moment({ hour: 17, minute: 30 }), "Class"],
+    [moment({ hour: 19, minute: 30 }), "Class End"]
+  ],
+  Sunday: [
+    [moment({ hour: 12, minute: 00 }), "Class"],
+    [moment({ hour: 14, minute: 00 }), "Class End"]
+  ]
+};
+
+const powerliftingSchedule = {
+  Monday: [
+    [moment({ hour: 17, minute: 45 }), "Class"],
+    [moment({ hour: 18, minute: 45 }), "Class End"]
+  ],
+  Tuseday: [
+    [moment({ hour: 17, minute: 45 }), "Class"],
+    [moment({ hour: 18, minute: 45 }), "Class End"]
+  ],
+  Wednesday: [
+    [moment({ hour: 17, minute: 45 }), "Class"],
+    [moment({ hour: 18, minute: 45 }), "Class End"]
+  ],
+  Thursday: [
+    [moment({ hour: 17, minute: 45 }), "Class"],
+    [moment({ hour: 18, minute: 45 }), "Class End"]
+  ]
+};
