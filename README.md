@@ -1,5 +1,6 @@
 # Class timer 
-[fysikentimer.netlify](https://fysikentimer.netlify.com/)
+
+This version is no longer in use. New version here - (https://github.com/JakobClausen/react-class-timer)
 
 A web app that counts down to the next training class and each break between classes. If it´s more than 60 minutes to the next class or if there is no more classes today, the current time is showing instead. 
 
@@ -23,7 +24,7 @@ A web app that counts down to the next training class and each break between cla
 
 ## Author
 
-* **Jakob Clausen Fridmar** - (https://github.com/JakobClausen)
+* **Jakob Clausen Clausen** - (https://github.com/JakobClausen)
 
 ## License
 
